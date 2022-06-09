@@ -26,7 +26,7 @@ header{
   background-color: #fff;
 }
 
-.orizzontal-rule-portfolio{
+.orizzontal-rule-black{
   height: 3px;
   background-color: #2C3E50;
 }
@@ -61,3 +61,7 @@ header{
   height: 200px;
 }
 
+.button-green{
+  background-color: #1ABC9C;
+  width: 100px;
+}
