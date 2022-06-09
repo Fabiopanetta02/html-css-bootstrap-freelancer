@@ -25,3 +25,38 @@ header{
   height: 3px;
   background-color: #fff;
 }
+
+.orizzontal-rule-portfolio{
+  height: 3px;
+  background-color: #2C3E50;
+}
+
+.house{
+  background-color: #BA4B63;
+  height: 200px;
+}
+
+.cake{
+  background-color: #1EA4B6;
+  height: 200px;
+}
+
+.circus{
+  background-color: #000;
+  height: 200px;
+}
+
+.console{
+  background-color: #1C83C1;
+  height: 200px;
+}
+
+.safe{
+  background-color: #0E38B5;
+  height: 200px;
+}
+
+.submarine{
+  background-color: #CCB2A3;
+  height: 200px;
+}
