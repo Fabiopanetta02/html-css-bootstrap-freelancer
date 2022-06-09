@@ -6,3 +6,22 @@ header{
 .bi-list{
   color: #888888;
 }
+
+.jumbotron{
+  min-height: 200px;
+}
+
+.bg-jumbotron{
+  background-color: #1ABC9C;
+}
+
+.bg-jumbotron .img-jumbo{
+  height: 150px;
+  width: 100%;
+  background-color: #2C3E50;
+}
+
+.orizzontal-rule{
+  height: 3px;
+  background-color: #fff;
+}
