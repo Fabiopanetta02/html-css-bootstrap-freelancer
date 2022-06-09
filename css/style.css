@@ -11,7 +11,7 @@ header{
   min-height: 200px;
 }
 
-.bg-jumbotron{
+.bg-jumbotron, .about{
   background-color: #1ABC9C;
 }
 
@@ -60,3 +60,4 @@ header{
   background-color: #CCB2A3;
   height: 200px;
 }
+
