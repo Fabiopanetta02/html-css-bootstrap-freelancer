@@ -32,13 +32,13 @@
                 <i class="bi bi-list fs-1 p-1 border border-white rounded d-md-none" role="button"></i>
                 <ul class="list-inline mb-0 fw-bold d-none d-md-block">
                     <li class="list-inline-item">
-                        <a href="#" class="text-decoration-none text-white">PORTOFOLIO</a>
+                        <a href="#portfolio" class="text-decoration-none text-white">PORTOFOLIO</a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" class="text-decoration-none text-white">ABOUT</a>
+                        <a href="#about" class="text-decoration-none text-white">ABOUT</a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" class="text-decoration-none text-white">CONTACT</a>
+                        <a href="#contact" class="text-decoration-none text-white">CONTACT</a>
                     </li>
                 </ul>
             </nav>
@@ -46,11 +46,12 @@
     </header>
 
     <main>
-        <section class="jumbotron">
+        <section id="jumbotron">
             <div class="bg-jumbotron">
                 <div class="container-fluid">
                     <div class="pt-5">
-                        <div class="img-jumbo mx-auto">                  
+                        <div class="img-jumbo mx-auto">
+                            <img src="img/avatar.svg" alt="avatar">                  
                         </div>
                     </div>
                     <div class="text-white text-center mt-4">
@@ -88,7 +89,7 @@
             </div>
         </section>
 
-        <section class="portofolio pt-5">
+        <section id="portfolio" class="pt-5">
             <div class="container-fluid">
                 <div class="text-center">
                     <span class="display-6 display-md-1 fw-bold">PORTFOLIO</span>
@@ -112,28 +113,28 @@
             <div class="container mt-4">
                 <div class="row pb-5">
                     <div class="col-md-6 col-lg-4 mb-2 p-2 ">
-                        <div class="house rounded"></div>
+                        <img src="img/cabin.png" alt="house" class="house rounded w-100 h-100">
                     </div>
                     <div class="col-md-6 col-lg-4 mb-2 p-2">
-                        <div class="cake rounded"></div>
+                        <img src="img/cake.png" alt="cake" class="house rounded w-100 h-100">
                     </div>
                     <div class="col-md-6 col-lg-4 mb-2 p-2">
-                        <div class="circus rounded"></div>
+                        <img src="img/circus.png" alt="circus" class="house rounded w-100 h-100">
                     </div>
                     <div class="col-md-6 col-lg-4 mb-2 p-2">
-                        <div class="console rounded"></div>
+                        <img src="img/game.png" alt="console" class="house rounded w-100 h-100">
                     </div>
                     <div class="col-md-6 col-lg-4 mb-2 p-2">
-                        <div class="safe rounded"></div>
+                        <img src="img/safe.png" alt="safe" class="house rounded w-100 h-100">
                     </div>
                     <div class="col-md-6 col-lg-4 mb-2 p-2">
-                        <div class="submarine rounded"></div>
+                        <img src="img/submarine.png" alt="submarine" class="house rounded w-100 h-100">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="about pt-5">
+        <section id="about" class="pt-5">
             <div class="container-fluid">
                 <div class="text-center text-white">
                     <span class="display-6 display-md-1 fw-bold">ABOUT</span>
@@ -173,7 +174,7 @@
             </div>
         </section>
 
-        <section class="contact me pt-5">
+        <section id="contact" class="pt-5">
             <div class="container-fluid">
                 <div class="text-center">
                         <span class="display-6 display-md-1 fw-bold">CONTACT ME</span>
@@ -197,36 +198,26 @@
             <div class="container mt-4">
                 <div class="row justify-content-center">
                     <div class="col-8">
-                        <span class="text-black fs-5 fw-bold">Name</span>
-                    </div>
-                    <div class="col-8">
-                        <hr class="border-dark opacity-50">
-                    </div>
-                    <div class="col-8">
-                        <span class="text-black fs-5 fw-bold">Email Address</span>
-                    </div>
-                    <div class="col-8">
-                        <hr class="border-dark opacity-50">
-                    </div>
-                    <div class="col-8">
-                        <span class="text-black fs-5 fw-bold">Phone Number</span>
-                    </div>
-                    <div class="col-8">
-                        <hr class="border-dark opacity-50">
-                    </div>
-                    <div class="col-8 mb-5">
-                        <span class="text-black fs-5 fw-bold">Message</span>
-                    </div>
-                    <div class="col-8 text-end">
-                        <i class="bi bi-arrows-collapse"></i>
-                        <hr class="m-0 border-dark opacity-50">
-                    </div>
-                </div>
-                <div class="row justify-content-center mt-4">
-                    <div class="col-8 mb-4">
-                        <a href="#" class="text-decoration-none text-white button-green rounded p-2">
-                            Send
-                        </a>
+                        <form>
+                            <div class="mb-3">
+                              <label for="name" class="form-label fw-bold text-grey">Name</label>
+                              <input type="text" class="form-control border-0 border-bottom rounded-0" id="name" name="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-grey">Email</label>
+                                <input type="email" class="form-control border-0 border-bottom rounded-0" id="email" name="email">
+                              </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label fw-bold text-grey">Phone Number</label>
+                                <input type="tel" class="form-control border-0 border-bottom rounded-0" id="phone" name="phone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="d-block fw-bold text-grey">Message</label>
+                                <textarea id="message" name="message" class="w-100 border-0 border-bottom rounded-0">
+                                </textarea>
+                            </div>
+                            <button type="submit" class="btn button-green text-white mb-5">Send</button>
+                          </form>
                     </div>
                 </div>
             </div>
@@ -261,7 +252,7 @@
                     <div class="col-12 mb-sm-5 col-md-4 text-center">
                         <span class="text-white d-block fs-5 fw-bold mb-2">ABOUT FREELANCER</span>
                         <span class="text-white d-block fs-4 fw-bold mb-2">
-                            Freelance is a free to use, open source Bootstrap theme created by <span class="text-grey">Start Bootstrap</span>.  
+                            Freelance is a free to use, open source Bootstrap theme created by <span class="text-light-blue">Start Bootstrap</span>.  
                         </span>
                     </div>
                 </div>

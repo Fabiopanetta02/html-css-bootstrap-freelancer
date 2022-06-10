@@ -14,18 +14,13 @@ header{
 /****************
 MAIN
 *****************/
-.jumbotron{
-  min-height: 200px;
-}
-
-.bg-jumbotron, .about{
+#jumbotron, #about{
   background-color: #1ABC9C;
 }
 
 .bg-jumbotron .img-jumbo{
-  height: 150px;
-  width: 150px;
-  background-color: #2C3E50;
+  height: 200px;
+  width: 200px;
 }
 
 
@@ -40,40 +35,6 @@ Linee Orizzontali
 .orizzontal-rule-black{
   height: 3px;
   background-color: #2C3E50;
-}
-
-
-/****************
-Color Background Section Portfolio  
-*****************/
-.house{
-  background-color: #BA4B63;
-  height: 300px;
-}
-
-.cake{
-  background-color: #1EA4B6;
-  height: 300px;
-}
-
-.circus{
-  background-color: #000;
-  height: 300px;
-}
-
-.console{
-  background-color: #1C83C1;
-  height: 300px;
-}
-
-.safe{
-  background-color: #0E38B5;
-  height: 300px;
-}
-
-.submarine{
-  background-color: #CCB2A3;
-  height: 300px;
 }
 
 
@@ -92,10 +53,6 @@ FOOTER
   background-color: #3A546D;
 }
 
-.text-grey{
-  color: #1ABC9C;
-}
-
 .footer-bottom{
   height: 100px;
   background-color: #2C3E50;
@@ -104,4 +61,16 @@ FOOTER
 .copyright{
   font-size: 10px;
   line-height: 100px;
+}
+
+
+/*******************
+Text color
+********************/
+.text-light-blue{
+  color: #1ABC9C;
+}
+
+.text-grey{
+  color: #2C3E50;
 }
